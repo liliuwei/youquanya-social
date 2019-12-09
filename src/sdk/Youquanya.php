@@ -13,13 +13,13 @@ class Youquanya extends Oauth
      * 获取requestCode的api接口
      * @var string
      */
-    protected $GetRequestCodeURL = 'http://oauth.youquanya.com/oauth/authorize';
+    protected $GetRequestCodeURL = 'http://passport.youquanya.com/oauth/authorize';
 
     /**
      * 获取access_token的api接口
      * @var string
      */
-    protected $GetAccessTokenURL = 'http://oauth.youquanya.com/oauth/token';
+    protected $GetAccessTokenURL = 'http://passport.youquanya.com/oauth/token';
 
     /**
      * 获取request_code的额外参数,可在配置中修改 URL查询字符串格式
@@ -31,7 +31,7 @@ class Youquanya extends Oauth
      * API根路径
      * @var string
      */
-    protected $ApiBase = 'http://oauth.youquanya.com/oauth/';
+    protected $ApiBase = 'http://passport.youquanya.com/oauth/';
 
     /**
      * 组装接口调用参数 并调用接口
